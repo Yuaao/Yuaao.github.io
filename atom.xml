@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yuaao.github.io</id>
     <title>Gridea</title>
-    <updated>2020-03-12T19:48:45.045Z</updated>
+    <updated>2020-03-12T19:49:01.756Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yuaao.github.io"/>
     <link rel="self" href="https://yuaao.github.io/atom.xml"/>
@@ -10,15 +10,6 @@
     <logo>https://yuaao.github.io/images/avatar.png</logo>
     <icon>https://yuaao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[这是我的第一个网站]]></title>
-        <id>https://yuaao.github.io/post/zhe-shi-wo-de-di-yi-ge-wang-zhan/</id>
-        <link href="https://yuaao.github.io/post/zhe-shi-wo-de-di-yi-ge-wang-zhan/">
-        </link>
-        <updated>2020-03-12T19:46:05.000Z</updated>
-        <content type="html"><![CDATA[<p>终于开始了test</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://yuaao.github.io/post/hello-gridea/</id>
