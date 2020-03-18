@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://yuaao.github.io</id>
+    <id>http://dundunxia.com</id>
     <title>有趣的前端</title>
-    <updated>2020-03-18T09:42:41.476Z</updated>
+    <updated>2020-03-18T09:43:59.409Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://yuaao.github.io"/>
-    <link rel="self" href="https://yuaao.github.io/atom.xml"/>
+    <link rel="alternate" href="http://dundunxia.com"/>
+    <link rel="self" href="http://dundunxia.com/atom.xml"/>
     <subtitle>这是关于CSS，JavaScript，和H5的网站</subtitle>
-    <logo>https://yuaao.github.io/images/avatar.png</logo>
-    <icon>https://yuaao.github.io/favicon.ico</icon>
+    <logo>http://dundunxia.com/images/avatar.png</logo>
+    <icon>http://dundunxia.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 有趣的前端</rights>
 </feed>
