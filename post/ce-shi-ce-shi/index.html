@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://dundunxia.com/favicon.ico?v=1584631252094">
+<link rel="shortcut icon" href="http://dundunxia.com/favicon.ico?v=1584631872942">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="http://dundunxia.com/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="site-header">
     <div class="left">
       <a href="http://dundunxia.com">
-        <img class="avatar" src="http://dundunxia.com/images/avatar.png?v=1584631252094" alt="" width="32px" height="32px">
+        <img class="avatar" src="http://dundunxia.com/images/avatar.png?v=1584631872942" alt="" width="32px" height="32px">
       </a>
       <a href="http://dundunxia.com">
         <h1 class="site-title">有趣的前端</h1>
@@ -63,26 +63,41 @@
           </div>
           <div class="post-content">
             <ol>
-<li>标题</li>
-</ol>
+<li>
+<p>标题</p>
+<ul>
+<li>
 <h1 id="1级标题">1级标题</h1>
+</li>
+<li>
 <h2 id="2级标题">2级标题</h2>
+</li>
+<li>
 <h6 id="6级标题">6级标题</h6>
-<ol>
-<li>一阶标题和二阶标题</li>
-<li></li>
-</ol>
-<p>一阶标题 在标题后面换行输入一个等号</p>
-<h1 id="这是一个一阶标题">这是一个一阶标题</h1>
-<p>二阶标题 在标题后面换行输入-号</p>
-<h2 id="这是一个二阶标题">这是一个二阶标题</h2>
-<ol start="3">
-<li>字体</li>
-</ol>
-<p>斜体 <em>斜体</em>   两个星号包裹<br>
-粗体 <strong>粗体</strong><br>
-粗斜体  <em><strong>粗斜体</strong></em></p>
-<ol start="4">
+</li>
+</ul>
+</li>
+<li>
+<p>一阶标题和二阶标题</p>
+<ul>
+<li>
+<h1 id="一阶标题-在标题后面换行输入一个等号这是一个一阶标题">一阶标题 在标题后面换行输入一个等号<br>
+这是一个一阶标题</h1>
+</li>
+<li>
+<h2 id="二阶标题-在标题后面换行输入-号这是一个二阶标题">二阶标题 在标题后面换行输入-号<br>
+这是一个二阶标题</h2>
+</li>
+</ul>
+</li>
+<li>
+<p>字体</p>
+<ul>
+<li>斜体 <em>斜体</em>   两个星号包裹</li>
+<li>粗体 <strong>粗体</strong></li>
+<li>粗斜体  <em><strong>粗斜体</strong></em></li>
+</ul>
+</li>
 <li>
 <p>图片和连接的插入</p>
 <ul>
@@ -94,13 +109,14 @@
 </ul>
 </li>
 <li>
-<p>脚注<br>
-待解释<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<p>脚注</p>
+<ul>
+<li>待解释<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></li>
+<li></li>
+</ul>
 </li>
-</ol>
-<ol start="6">
-<li>分割线</li>
-</ol>
+<li>
+<p>引用段落</p>
 <blockquote>
 <p>123</p>
 <blockquote>
@@ -110,11 +126,10 @@
 </blockquote>
 </blockquote>
 </blockquote>
-<ol start="7">
+</li>
 <li>
 <p>代码块<br>
 <code>let a = 123</code><br>
-四个空格或者一个tab键<br>
 let a = 123<br>
 let a = 123</p>
 </li>
@@ -136,22 +151,50 @@ let a = 123</p>
 </li>
 <li>
 <p>有序列表 数字.空格</p>
-</li>
-<li>
-<p>这是有序列表1</p>
-</li>
+<ol>
+<li>这是有序列表1</li>
 </ol>
-<pre><code>+ 这是父级列表
-    + 子集列表1
-    + 子集列表2
-</code></pre>
-<ol start="12">
+</li>
 <li>
-<p>表格 :-----: 居中对其，：是对齐方式<br>
-| Tables    | Are    | Cool    |<br>
-| -------|:-----😐 -----😐<br>
-|col1        | xxxx    | xxx     |<br>
-|col2        | xxxx    | xxx     |</p>
+<p>混合列表</p>
+<ul>
+<li>这是父级列表
+<ul>
+<li>子集列表1</li>
+<li>子集列表2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>表格 :-----: 居中对其，：是对齐方式</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th style="text-align:center">111</th>
+<th style="text-align:center">222</th>
+<th style="text-align:center">333</th>
+<th style="text-align:right">444</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>aaa</td>
+<td style="text-align:center">bbb</td>
+<td style="text-align:center">ccc</td>
+<td style="text-align:center">ddd</td>
+<td style="text-align:right">eee</td>
+</tr>
+<tr>
+<td>fff</td>
+<td style="text-align:center">ggg</td>
+<td style="text-align:center">hhh</td>
+<td style="text-align:center">iii</td>
+<td style="text-align:right">000</td>
+</tr>
+</tbody>
+</table>
 </li>
 <li>
 <p>换行 在换行位置打两个空格然后在回撤<br>
@@ -163,10 +206,10 @@ let a = 123</p>
  首行缩紧啦</p>
 </li>
 <li>
-<p>居中使用利用html<div align-center></div></p>
+<p>居中使用利用html<div align-center></div><br>
+<div align-center>居中啦</div></p>
 </li>
 </ol>
-<div align-center>居中啦</div>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
