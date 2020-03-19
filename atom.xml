@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://dundunxia.com</id>
     <title>有趣的前端</title>
-    <updated>2020-03-19T15:31:24.293Z</updated>
+    <updated>2020-03-19T15:34:34.650Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://dundunxia.com"/>
     <link rel="self" href="http://dundunxia.com/atom.xml"/>
@@ -83,8 +83,8 @@
 </li>
 <li>
 <p>代码块<br>
-<code>let a = 123</code><br>
-let a = 123<br>
+<code>let a = 123</code></p>
+<p>let a = 123<br>
 let a = 123</p>
 </li>
 <li>
@@ -95,7 +95,7 @@ let a = 123</p>
 </li>
 <li>
 <p>删除线<br>
-～～删除线～～</p>
+<s>删除线</s></p>
 </li>
 <li>
 <p>无序列表 *， -， +</p>
