@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://dundunxia.com</id>
     <title>有趣的前端</title>
-    <updated>2020-03-19T14:25:44.558Z</updated>
+    <updated>2020-03-19T15:06:42.645Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://dundunxia.com"/>
     <link rel="self" href="http://dundunxia.com/atom.xml"/>
@@ -16,10 +16,10 @@
         <link href="http://dundunxia.com/post/ce-shi-ce-shi/">
         </link>
         <updated>2020-03-18T09:47:58.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="空格-1级标题-空格-2级标题-6级标题一阶标题-在标题后面换行输入一个等号这是一个一阶标题">. #空格 1级标题<br>
-. ##空格 2级标题<br>
-.###### 6级标题<br>
-一阶标题 在标题后面换行输入一个等号<br>
+        <content type="html"><![CDATA[<h1 id="1级标题">1级标题</h1>
+<h2 id="2级标题">2级标题</h2>
+<h6 id="6级标题">6级标题</h6>
+<h1 id="一阶标题-在标题后面换行输入一个等号这是一个一阶标题">一阶标题 在标题后面换行输入一个等号<br>
 这是一个一阶标题</h1>
 <h2 id="二阶标题-在标题后面换行输入-号这是一个二阶标题">二阶标题 在标题后面换行输入-号<br>
 这是一个二阶标题</h2>
@@ -29,13 +29,66 @@
 <p>图片和连接的插入<br>
 连接插入<br>
 <a href="http://www.baidu.com" title="title">百度</a><br>
-[百度][wangzhi1]</p>
-<p>[wangzhi1]:http://www.baidu.com 网址1的内容<br>
 <a href="http://www.baidu.com">http://www.baidu.com</a><br>
 图片插入<br>
-<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3248784459,2319182051&amp;fm=26&amp;gp=0.jpg" alt="易烊千玺" loading="lazy"><br>
-![易烊千玺][yyqx]<br>
-[yyqx]:https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3248784459,2319182051&amp;fm=26&amp;gp=0.jpg</p>
+<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3248784459,2319182051&amp;fm=26&amp;gp=0.jpg" alt="易烊千玺" loading="lazy"></p>
+<p>待解释<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<blockquote>
+<p>123</p>
+<blockquote>
+<p>123</p>
+<blockquote>
+<p>123<br>
+代码块<br>
+<code>let a = 123</code><br>
+四个空格或者一个tab键<br>
+let a = 123<br>
+let a = 123<br>
+分割线用   * - _</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<pre><code>***
+---
+___
+</code></pre>
+<p>删除线<br>
+～～删除线～～<br>
+无序列表 *， -， +</p>
+<ul>
+<li>无序列表<br>
+有序列表 数字.空格</li>
+</ul>
+<ol>
+<li>这是有序列表1</li>
+</ol>
+<ul>
+<li>这是父级列表
+<ul>
+<li>子集列表1</li>
+<li>子集列表2<br>
+表格 :-----: 居中对其，：是对齐方式<br>
+| Tables    | Are    | Cool    |<br>
+| -------|:-----😐 -----😐<br>
+|col1        | xxxx    | xxx     |<br>
+|col2        | xxxx    | xxx     |</li>
+</ul>
+</li>
+</ul>
+<p>换行 在换行位置打两个空格然后在回撤<br>
+这里要换行了<br>
+换行完成<br>
+首行缩紧  <br>
+ 首行缩紧啦<br>
+居中使用利用html<div align-center></div></p>
+<div align-center>居中啦</div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>脚注 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content>
     </entry>
 </feed>
