@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://dundunxia.com</id>
     <title>有趣的前端</title>
-    <updated>2020-03-19T15:45:18.425Z</updated>
+    <updated>2020-03-19T15:49:00.018Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://dundunxia.com"/>
     <link rel="self" href="http://dundunxia.com/atom.xml"/>
@@ -86,10 +86,15 @@
 <code>let a = 123</code></p>
 </li>
 <li>
-<p>代码块<br>
-let a = 123<br>
-let a = 123</p>
+<p>代码块</p>
 </li>
+</ol>
+<pre><code>``` 
+    let a = 123
+    let a = 123
+``` 
+</code></pre>
+<ol start="9">
 <li>
 <p>分割线用   * - _</p>
 <hr>
@@ -164,7 +169,8 @@ let a = 123</p>
 </li>
 <li>
 <p>居中使用利用html<div align-center></div><br>
-<div align-center>居中啦</div></p>
+<div align-center>居中啦</div><br>
+<center>这一行需要居中</center></p>
 </li>
 </ol>
 <hr class="footnotes-sep">
